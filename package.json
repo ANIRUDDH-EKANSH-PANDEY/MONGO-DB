@@ -1,0 +1,22 @@
+{
+  "name": "mongo-db",
+  "version": "1.0.0",
+  "description": "Library System with Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANIRUDDH-EKANSH-PANDEY/MONGO-DB.git"
+  },
+  "author": "Aniruddh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}
