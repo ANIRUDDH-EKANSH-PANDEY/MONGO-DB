@@ -1,5 +1,5 @@
 const { UserModel, BookModel } = require("../models");
-// const IssuedBook = require("../dtos/book-dto");
+const IssuedBook = require("../dtos/book-dto");
 
 exports.getAllBooks = async (req, res) => {
   const books = await BookModel.find();
@@ -44,7 +44,7 @@ exports.getAllIssuedBooks = async (req, res) => {
   if (issuedBooks.length === 0)
     return res
       .status(404)
-      .json({ success: false, message: "No booke has been issued" });
+      .json({ success: false, message: "No book has been issued" });
 
   return res.status(200).json({
     success: true,

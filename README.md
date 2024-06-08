@@ -31,3 +31,5 @@ MVC Arch:
   Name : Aniruddh Ekansh Pandey
   Age : 21
   Gender : 'M' -->
+
+  <!-- DTO : Used to transfer information between objects (i.e., from one object to another) -->
