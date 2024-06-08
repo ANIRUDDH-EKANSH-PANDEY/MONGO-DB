@@ -2,6 +2,8 @@ const express = require("express");
 // const { append } = require("express/lib/response");
 const { users } = require("../data/users.json");
 
+const { UserModel, BookModel } = require("../models/index");
+
 const router = express.Router();
 
 /**
